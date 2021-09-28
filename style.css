@@ -1,0 +1,24 @@
+.namebar {
+    background: linear-gradient(to right,    
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    text-align: center;
+    font-size: 7vmin;
+  }
+  .boxnamebar {
+    margin:-10px;
+    padding:30px;
+    background: hsl(204 100% 5%);
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: 'Stick No Bills', sans-serif;
+  }
+
+  .navbar {
+
+  }
