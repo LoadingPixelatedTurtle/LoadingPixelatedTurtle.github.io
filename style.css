@@ -19,6 +19,28 @@
     font-family: 'Stick No Bills', sans-serif;
   }
 
+
   .navbar {
+    border-radius: 25px;
+    height:fit-content;
+    display: inline-flex;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    padding:0 10px;
+    margin: 10px 0 0 0;
 
   }
+li{
+  list-style: none;
+}
+.navItem {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+		font-weight: bold;
+		padding: 12px 16px;
+		margin: 0 8px;
+		position: relative;
+		cursor: pointer;
+		white-space: nowrap;
+}
